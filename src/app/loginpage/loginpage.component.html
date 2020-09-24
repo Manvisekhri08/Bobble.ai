@@ -1,0 +1,73 @@
+<div class="limiter">
+  <div class="container-login100">
+    <div class="wrap-login100 p-l-85 p-r-85 p-t-55 p-b-55">
+        <span class="login100-form-title p-b-5">
+      Create your Account
+        </span>
+        &nbsp;
+
+        <div class="flex-sb-m w-full p-b-48">
+          <button class="loginBtn loginBtn--google" (click)="googleLoginClick()">
+            <i class="fab fa-facebook-square"></i>Google Sign In
+          </button>
+          <div >
+               <button class="loginBtn loginBtn--facebook" id="googleBtn" (click)="facebookLoginClick()">
+                 <i class="fab fa-google"></i>Facebook Sign in
+                </button>
+          </div>
+        </div>
+          <table width="100%">
+            <tr>
+              <td><hr /></td>
+                <td style="width:1px; padding: 0 10px; white-space: nowrap;">or</td>
+              <td><hr /></td>
+            </tr>
+        </table>
+
+        <span class="txt1 p-b-11">
+        </span>
+        <div class="wrap-input100  m-b-36" >
+          <input class="input100" type="text" name="username" autocomplete="off" [(ngModel)]="uFName" placeholder="First Name">
+          <span class="focus-input100"></span>
+        </div>
+        <span class="txt1 p-b-11">
+        </span>
+        <div class="wrap-input100  m-b-36" >
+          <input class="input100" type="text" name="username" autocomplete="off" [(ngModel)]="uLName" placeholder="Last Name">
+          <span class="focus-input100"></span>
+        </div>
+
+        <span class="txt1 p-b-11">
+        </span>
+        <div class="wrap-input100  m-b-36" >
+          <input class="input100" type="text" name="username" autocomplete="off" [(ngModel)]="uEmail" placeholder="Email">
+          <span class="focus-input100"></span>
+        </div>
+
+        <span class="txt1 p-b-11">
+        </span>
+        <div class="wrap-input100 m-b-12" >
+          <span class="btn-show-pass">
+            <i class="fa fa-eye"></i>
+          </span>
+          <input class="input100" type="password" name="pass" [(ngModel)]="uPassword" placeholder="Password">
+          <span class="focus-input100"></span>
+        </div>
+          &nbsp;
+        <div class="flex-sb-m w-full p-b-48">
+          <div class="contact100-form-checkbox">
+            By clicking Sign Up, you agree to our <a href="https://policies.google.com/terms?hl=en-US>Terms of Use" style="color: blue;">Terms of Use</a> and our <a href="https://policies.google.com/privacy?hl=en-US" style="color: blue;"> Privacy Policy.</a>
+          </div>
+        </div>
+        <div >
+              <button class="btn btn-primary btn-lg btn-block" id="googleBtn" (click)="emailLoginClick()">
+                  Sign In
+                </button>
+          </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="dropDownSelect1"></div>
