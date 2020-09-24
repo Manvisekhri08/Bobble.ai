@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Node_Modules
+
+To install node modules, run 'npm install' on terminal and all the modules in the project will get installed.
+
+## For Facebook Integration
+
+For facebook integration, go to 'www.developers.facebook.com', create your app and fill the URL of the website.
+
+## For Google Integration
+
+For google integration, go to 'https://console.developers.google.com', create your credentials and copy the key in your code.
+
