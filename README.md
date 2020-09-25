@@ -32,7 +32,7 @@ To install node modules, run 'npm install' on terminal and all the modules in th
 
 ## For Facebook Integration
 
-For facebook integration, go to 'www.developers.facebook.com', create your app and fill the URL of the website.
+For facebook integration, go to 'https://developers.facebook.com/', create your app and fill the URL of the website.
 
 ## For Google Integration
 
